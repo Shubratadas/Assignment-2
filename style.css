@@ -12,6 +12,7 @@
 body{
   margin: 0px;
   padding: 0px;
+  background-color: black;
 }
 
 /* ---------Share Style------------- */
@@ -29,6 +30,38 @@ body{
   font-weight: 500;
   background-color: #E6533C;  
 }
+
+.font-48-share-style{
+  font-size: 3rem;
+  color: #FFFFFF;
+  font-weight: 900;
+  margin: 0px;
+  padding: 0px;
+}
+
+.font-18-share-style{
+  font-size: 1.125rem;
+  color: #FFFFFF;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+}
+
+.font-14-share-style{
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  line-height: 24px;
+}
+
+.change-habits-img-br{
+  border-radius: 50%;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
 
 /* ---------- Navigation Bar--------- */
 .navigation-bar{
@@ -184,4 +217,38 @@ body{
   color: rgba(255, 255, 255, 0.65);
   margin: 5px;
   padding: 0px;
+}
+
+/* ---------- Change the Habits Section-------------- */
+
+.change-habits{
+  margin-left: 198px;
+  margin-right: 198px;
+}
+
+.change-habits-text{
+  text-align: center;
+  align-items: center;
+  
+}
+
+.change-habits-text h2{
+  margin-top: 100px;
+  padding: 0px;
+}
+.change-habits-text p{
+  margin-top: 14px;
+  padding: 0px;
+}
+
+
+.change-habits-img{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  text-align: center;  
+}
+
+.change-habits-img p{
+  margin-top: 6px;
 }
